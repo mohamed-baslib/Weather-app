@@ -8,7 +8,7 @@ const Weather = () => {
 
   return (
     <div
-      className={`duration-200 h-[840px] text-[--text] bg-[--surface] p-[20px] backdrop-blur-3xl rounded-[35px] m-3 shadow-md flex-col w-[350px]`}
+      className={`duration-200 h-[840px] text-[--text] bg-[--surface] p-[20px] backdrop-blur-3xl sm:rounded-[35px] sm:m-3 shadow-md flex-col w-full sm:w-[350px]`}
     >
       <Header />
 
