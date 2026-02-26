@@ -1,121 +1,110 @@
-# 🎓 منصة التدريب الجامعي | Uni Training Platform
+# 🌤️ Weather App
 
-منصة ويب عربية تهدف إلى مساعدة الطلاب والخريجين على **اكتشاف فرص التدريب المناسبة لهم** بسهولة، مع تجربة استخدام واضحة وقريبة من الواقع، تم بناؤها كمشروع تطبيقي احترافي ضمن مساري في تطوير الواجهات الأمامية.
-
----
-
-## 🌐 رابط المشروع
-🔗 **Live Demo:**  
-(https://uni-training-platform.vercel.app/)
-
-🔗 **GitHub Repository:**  
-(https://github.com/mohamed-baslib/uni-training-platform)
+A modern and interactive weather application built with **React** that provides real‑time weather data, weekly forecasts, multilingual support, and a beautiful animated UI.
 
 ---
 
-## 📸 لقطات من المشروع
+## 🚀 Features
 
-![Home Page](public/images/screenshot.png)
+* 🔍 Search weather by city name
+* 📍 Detect user location automatically (Geolocation API)
+* 🌡️ Current weather details
+
+  * Temperature
+  * Feels like
+  * Humidity
+  * Wind speed
+  * Pressure
+* 📅 Weekly forecast (dynamic based on current day)
+* 🌍 Multi‑language support (Arabic / English)
+* 🎨 Dark / Light theme toggle
+* ✨ Smooth animations and transitions
+* 📱 Responsive design (mobile friendly)
+
+---
+
+## 🧠 Technologies Used
+
+* React.js
+* Context API (State Management)
+* Tailwind CSS
+* Axios (API Requests)
+* i18next (Localization)
+* OpenWeatherMap API
+* Font Awesome Icons
+
+---
 
 
 ---
 
-## 🧩 فكرة المشروع
+## ⚙️ Installation
 
-يعاني الكثير من الطلاب من صعوبة الوصول إلى فرص تدريب مناسبة لتخصصهم أو موقعهم.  
-جاءت هذه المنصة لتقدّم:
+1️⃣ Clone the repository
 
-- عرض فرص تدريب متنوعة ومنظمة
-- إمكانية حفظ والتقديم على الفرص
-- تجربة مخصصة للمستخدم المسجل
-- واجهة عربية كاملة وسهلة الاستخدام
+```bash
+git clone https://github.com/your-username/weather-app.git
+```
 
-> المشروع لم يُنفذ كنموذج شكلي فقط، بل تمت محاكاة منطق منصات حقيقية قدر الإمكان.
+2️⃣ Navigate to project folder
 
----
+```bash
+cd weather-app
+```
 
-## ✨ المميزات الرئيسية
+3️⃣ Install dependencies
 
-- 🔍 تصفح جميع فرص التدريب
-- ⭐ فرص مميزة (Featured Opportunities)
-- 💾 حفظ الفرص المفضلة
-- 📨 التقديم على الفرص عبر Modal
-- 👤 نظام مستخدم (تسجيل / تسجيل خروج)
-- 📄 رفع وإدارة السيرة الذاتية
-- 🧠 اقتراح فرص مناسبة حسب بيانات المستخدم
-- 🌍 دعم الموقع الجغرافي (البلد)
-- 📱 تصميم متجاوب (Responsive Design)
-- 🇸🇦 واجهة عربية بالكامل (RTL)
+```bash
+npm install
+```
 
----
+4️⃣ Run development server
 
-## 🧠 منطق ذكي داخل المشروع
-
-- إعطاء أولوية للفرص المجانية
-- عرض فرص قريبة من بلد المستخدم إن وُجد
-- نظام حفظ وتقديم منفصل
-- إدارة حالة المستخدم باستخدام Context API
-- محاكاة تخزين البيانات باستخدام LocalStorage
+```bash
+npm run dev
+```
 
 ---
 
-## 🛠️ التقنيات المستخدمة
+## 🌎 API Used
 
-- **React.js**
-- **React Router**
-- **Context API**
-- **Tailwind CSS**
-- **LocalStorage**
-- **Font Awesome Icons**
+* Current Weather API
+* 5 Day / 3 Hour Forecast API
+* Reverse Geocoding (for city translation)
 
 ---
 
-## 📁 هيكلة المشروع (باختصار)
+## 🎨 UI Highlights
 
-src/
-│── components/
-│── pages/
-│── contexts/
-│── data/
-│── assets/
-│── App.jsx
-│── main.jsx
-
-yaml
-نسخ الكود
+* Glassmorphism cards
+* 3D weather icons
+* Animated loading states
+* Smooth card entrance animations
+* Horizontal forecast slider with arrows
 
 ---
 
-## ⚠️ ملاحظات مهمة
+---
 
-- المشروع **Front-End فقط**
-- لا يوجد Backend حقيقي
-- البيانات محاكاة (Mock Data)
-- LocalStorage يستخدم لأغراض تعليمية فقط
+## 🔮 Future Improvements
+
+* Hourly forecast
+* Weather maps integration
+* Favorite cities system
+* PWA support
+* Offline mode
 
 ---
 
-## 🚀 الهدف من المشروع
+## 👨‍💻 Author
 
-- بناء مشروع بورتفوليو قوي
-- تطبيق مفاهيم React عمليًا
-- محاكاة منصة حقيقية
-- تحسين التفكير المعماري في المشاريع
-- الاستعداد لسوق العمل والـ Freelancing
+**Mohamed Baslib**
 
----
-
-## 👨‍💻 المطوّر
-
-**محمد يسلم محمد باصليب**  
-Front-End Developer | React
-
-- GitHub: https://github.com/mohamed-baslib
-- LinkedIn: https://www.linkedin.com/in/mohamed-basalib/
+* GitHub: [https://github.com/mohamed-baslib](https://github.com/mohamed-baslib)
+* LinkedIn: [https://www.linkedin.com/in/mohamed-basalib/](https://www.linkedin.com/in/mohamed-basalib/)
 
 ---
 
-## ⭐ إذا أعجبك المشروع
+## ⭐ Support
 
-لا تنسَ وضع ⭐ على المستودع  
-أي ملاحظات أو اقتراحات مرحب بها 🙌
+If you like this project, consider giving it a star ⭐ on GitHub!
