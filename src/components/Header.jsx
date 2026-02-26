@@ -3,7 +3,6 @@ import { useTheme } from "../contexts/useTheme";
 import { useTranslation } from "react-i18next";
 import { useWeather } from "../contexts/useWeather";
 import { fetchForecast, fetchWeatherByCoords } from "../services/weatherService";
-import { useEffect } from "react";
 
 const Header = () => {
   const { t } = useTranslation();
@@ -29,6 +28,7 @@ const Header = () => {
         const dataForecast = await fetchForecast(dataLocation.name);
         setWeather(dataLocation)
         setCity(dataLocation.name)
+        localStorage.setItem("city", dataLocation.name)
         setForecast(dataForecast)
         } 
         catch (err) {
@@ -41,15 +41,11 @@ const Header = () => {
     }
       },
       () => {
-        setCity("مكة")
+        setCity("")
       },
     );
     
   };
-
-  useEffect(() => {
-    handleCurrentLocation();
-  }, [])
 
   return (
     <header className="flex justify-between items-center">

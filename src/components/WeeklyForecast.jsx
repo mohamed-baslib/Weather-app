@@ -101,7 +101,7 @@ const WeeklyForecastCard = () => {
                     isLangAr ? "text-[11px]" : "text-[14px]"
                   }`}
                 >
-                  {index === 0 ? t("today") : t(item.day)}
+                  {t(item.day)}
                 </p>
 
                 <p className="text-[12px] opacity-70">

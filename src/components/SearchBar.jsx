@@ -10,7 +10,7 @@ const SearchBar = () => {
   const { isLangAr, lang } = useLanguage();
   const controllerRef = useRef(null);
 
-  const handleSearch = async () => {
+  const handleSearch = async (city) => {
     if (!city) return;
 
     if (controllerRef.current) {
@@ -38,8 +38,12 @@ const SearchBar = () => {
     }
   };
 
+  useEffect( () => {
+    const currentCity = localStorage.getItem("city");
+    setCity(currentCity)
+  }, [])
   useEffect(() => {
-      handleSearch();
+      handleSearch(city);
   }, [lang, city]);
 
   return (
@@ -54,6 +58,7 @@ const SearchBar = () => {
           className={`bg-gradient-to-l from-purple-400 to-blue-500 p-2 ${isLangAr ? "rounded-l-xl" : "rounded-r-xl"} w-20 text-white text-sm`}
           onClick={(e) => {
             setCity(e.target.previousSibling.value);
+            localStorage.setItem("city", e.target.previousSibling.value)
           }}
         >
           {t("Search")}
