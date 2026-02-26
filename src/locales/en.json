@@ -1,0 +1,23 @@
+{
+  "Use My Location": "Use My Location",
+  "weather_details": "Weather Details",
+  "Not Found": "Not Found",
+  "feels_like": "Feels Like",
+  "humidity": "Humidity",
+  "wind": "Wind",
+  "pressure": "Pressure",
+  "rain_showers": "Rain Showers",
+  "weekly_forecast": "Weekly Forecast",
+  "next": "Next",
+  "previous": "Previous",
+
+  "days": {
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
+  }
+}

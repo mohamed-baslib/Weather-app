@@ -1,0 +1,30 @@
+.card {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideUp 0.8s ease forwards;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card:nth-child(1) { animation-delay: 0.1s; }
+.card:nth-child(2) { animation-delay: 0.2s; }
+.card:nth-child(3) { animation-delay: 0.3s; }
+
+.weather-icon {
+  animation: spin3d 4s linear infinite alternate;
+}
+
+@keyframes spin3d {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+

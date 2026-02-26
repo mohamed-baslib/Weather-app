@@ -1,0 +1,27 @@
+{
+  "Use My Location": "استخدم موقعي",
+  "Not Found": "لايوجد",
+  "Search City": "ابحث عن مدينة",
+  "Search": "بحث",
+  "weather_details": "تفاصيل الطقس",
+  "feels_like": "المحسوسة",
+  "humidity": "الرطوبة",
+  "wind": "الرياح",
+  "pressure": "الضغط",
+  "rain_showers": "ممطر جزئي",
+  "weekly_forecast": "توقعات الأسبوع",
+  "next": "التالي",
+  "previous": "السابق",
+  "Unable to retrieve location": "قم بتفعيل الوصول للموقع من جهازك لكي تعمل هذه الخاصية",
+  "Search or Network Problem": "هناك خطأ في البحث او الشبكة",
+
+  "days": {
+    "mon": "الإثنين",
+    "tue": "الثلاثاء",
+    "wed": "الأربعاء",
+    "thu": "الخميس",
+    "fri": "الجمعة",
+    "sat": "السبت",
+    "sun": "الأحد"
+  }
+}
